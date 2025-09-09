@@ -1,6 +1,6 @@
 # terraform-aws-ec2-bootstrap
 
-Bootstrap an AWS EC2 instance with Terraform, Docker, Git, and MongoDB shell.
+Bootstrap an AWS EC2 instance with Terraform, Docker, and MongoDB shell.
 
 This repository provides a Terraform configuration to provision an Amazon Linux 2 EC2 instance in your default VPC. It automatically sets up:
 
