@@ -12,7 +12,12 @@ This Terraform project provisions an **AWS EC2 instance already set up for Tyk**
 - Preconfigured security group
 
 ### Setup Steps
-1. Change the EC2 **tag name** to differentiate this environment from others.
+1. Change the EC2 **tag name** in **`main.tf`** to differentiate this environment from others.  
+   The tag is located here:
+   ```hcl
+   tags = { 
+     Name = "mhuaco-instance"
+   }
 2. Create your own **AWS key pair**.
 3. Update the Terraform variable in **`variables.tf`** to point to your key:
 
